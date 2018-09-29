@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace DatingApp.api.Controllers
+namespace DatingApp.API.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
